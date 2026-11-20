@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛄</text></svg>">
-<meta name="theme-color" content="#fdfaf2">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛄</text></svg>"><meta name="theme-color" content="#fdfaf3">
 <title>Snow Man ダッシュボード</title>
 <style>
   html,body{background:#fdfaf2}
@@ -182,6 +181,15 @@ section{margin-top:30px}
 .whenrow .ic{font-size:20px}
 .ch{display:inline-block;background:var(--ink);color:var(--bg);font-weight:900;font-size:20px;line-height:1.25;padding:3px 12px;border-radius:10px;letter-spacing:.03em;white-space:nowrap}
 .ch.freq{font-size:15px;padding:5px 12px}
+.tver{display:inline-block;font-weight:900;font-size:13px;line-height:1.4;padding:3px 10px;border-radius:999px;white-space:nowrap;vertical-align:middle}
+.tver.yes{background:#0f2a4a;color:#fff;border:1.5px solid #0f2a4a}
+.tver.no{background:#6b7280;color:#fff;border:1.5px solid #6b7280}
+.tver.tbd{background:#e5e7eb;color:#374151;border:1.5px solid #c9ced6}
+@media (prefers-color-scheme: dark){
+  .tver.yes{background:#e8eef7;color:#0f2a4a;border-color:#e8eef7}
+  .tver.no{background:#4b5563;color:#f3f4f6;border-color:#4b5563}
+  .tver.tbd{background:#2b3038;color:#d1d5db;border-color:#4b5563}
+}
 .station-sub{font-size:13px;font-weight:700;color:var(--muted)}
 .event p.note{margin:2px 0 0;color:var(--muted);font-weight:500;font-size:14.5px}
 .src-link{font-size:13.5px;font-weight:700;color:var(--muted);display:inline-block;margin-top:8px;min-height:32px}
@@ -383,7 +391,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
           <span class="who all">Snow Man全員</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>20:00〜20:55</span>
-            <span class="wr"><span class="ic" aria-hidden="true">📺</span>TBS系 <span class="ch">6CH</span></span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>TBS系 <span class="ch">6CH</span> <span class="tver yes">TVerあり</span></span>
           </div>
           <h3>「それSnow Manにやらせて下さい」</h3>
           <p class="note">Snow Manの冠番組。毎週金曜放送のレギュラー番組です。次回は11月20日（金）。</p>
@@ -397,7 +405,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
           <span class="who white">ラウール</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>21:00〜</span>
-            <span class="wr"><span class="ic" aria-hidden="true">📺</span>テレビ朝日系 <span class="ch">5CH</span></span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>テレビ朝日系 <span class="ch">5CH</span> <span class="tver no">TVerなし</span></span>
           </div>
           <h3>「ミュージックステーション」</h3>
           <p class="note">ラウールがAlan Walker feat. Raulとして出演します。開始時刻のみ公式に記載されています。</p>
@@ -426,7 +434,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
           <span class="who all">Snow Man全員</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>第1部 16:00〜17:00／第2部 19:00〜22:54</span>
-            <span class="wr"><span class="ic" aria-hidden="true">📺</span>日本テレビ系 <span class="ch">4CH</span></span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>日本テレビ系 <span class="ch">4CH</span> <span class="tver tbd">TVer未定</span></span>
           </div>
           <h3>「ベストアーティスト2026」</h3>
           <p class="note">年末の大型音楽番組にSnow Man全員が出演します。</p>
@@ -440,7 +448,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
           <span class="who all">Snow Man全員</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>18:30〜</span>
-            <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span></span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span> <span class="tver tbd">TVer未定</span></span>
           </div>
           <h3>「2026 FNS歌謡祭 第1夜」</h3>
           <p class="note">Snow Man全員が出演します。ラウールの別出演も予定されています。開始時刻のみ公式に記載されています。</p>
@@ -681,9 +689,10 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
   <section aria-labelledby="links-h">
     <div class="sec-head"><span class="num">6</span><div><h2 id="links-h">他のダッシュボード</h2><p>ほかのグループのダッシュボードはこちら</p></div></div>
     <div class="links">
-      <a class="link-card" href="https://yayo-dog7.github.io/milk-dashboard/"><span class="ic" aria-hidden="true">🥛</span><span>M!LKダッシュボード<small>milk-dashboard</small></span></a>
-      <a class="link-card" href="https://yayo-dog7.github.io/milk-dashboard/naniwa/"><span class="ic" aria-hidden="true">💎</span><span>なにわ男子ダッシュボード<small>milk-dashboard/naniwa</small></span></a>
-      <a class="link-card" href="https://yayo-dog7.github.io/milk-dashboard/aegroup/"><span class="ic" aria-hidden="true">🅰️</span><span>Aぇ! groupダッシュボード<small>milk-dashboard/aegroup</small></span></a>
+      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/"><span class="ic" aria-hidden="true">🏠</span><span>メインページ<small>アイドルダッシュボード</small></span></a>
+      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/milk/"><span class="ic" aria-hidden="true">🥛</span><span>M!LKダッシュボード<small>idol-dashboards/milk</small></span></a>
+      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/naniwa/"><span class="ic" aria-hidden="true">💎</span><span>なにわ男子ダッシュボード<small>idol-dashboards/naniwa</small></span></a>
+      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/aegroup/"><span class="ic" aria-hidden="true">🅰️</span><span>Aぇ! groupダッシュボード<small>idol-dashboards/aegroup</small></span></a>
     </div>
   </section>
 
