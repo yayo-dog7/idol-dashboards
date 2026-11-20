@@ -159,6 +159,9 @@ section{margin-top:30px}
 .event[data-kind="sakuma"]{border-color:var(--pink);background:linear-gradient(180deg,var(--pink-bg),var(--card) 72%)}
 .event[data-kind="sakuma"] .datebox{background:var(--pink);border-color:var(--pink)}
 .event[data-kind="sakuma"] .datebox b,.event[data-kind="sakuma"] .datebox span{color:#fff}
+.event[data-kind="miyadate sakuma"]{border:3px solid transparent;background:linear-gradient(var(--card),var(--card)) padding-box,linear-gradient(135deg,var(--red),var(--pink)) border-box;background-clip:padding-box,border-box;background-origin:border-box}
+.event[data-kind="miyadate sakuma"] .datebox{background:linear-gradient(135deg,var(--red),var(--pink));border-color:var(--red)}
+.event[data-kind="miyadate sakuma"] .datebox b,.event[data-kind="miyadate sakuma"] .datebox span{color:#fff}
 .event[data-kind="group"]{border:3px solid transparent;background:linear-gradient(var(--card),var(--card)) padding-box,linear-gradient(90deg,var(--yellow),var(--purple),#a8bccd,var(--blue),var(--orange),var(--green),#23272f,var(--red),var(--pink)) border-box;background-clip:padding-box,border-box;background-origin:border-box}
 .event[data-kind="group"] .datebox{background:var(--ink);border-color:var(--ink)}
 .event[data-kind="group"] .datebox b,.event[data-kind="group"] .datebox span{color:var(--bg)}
@@ -384,17 +387,16 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
     <div id="listView">
     <div class="sched" id="schedList">
 
-      <article class="event" data-kind="group">
+      <article class="event" data-kind="miyadate">
         <div class="datebox"><b>11/20</b><span>金曜日</span></div>
         <div class="body">
-          <span class="weekly">毎週 金曜日</span><br>
-          <span class="who all">Snow Man全員</span>
+          <span class="who red">宮舘涼太</span>
           <div class="whenrow">
-            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>20:00〜20:55</span>
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>19:00〜20:55</span>
             <span class="wr"><span class="ic" aria-hidden="true">📺</span>TBS系 <span class="ch">6CH</span> <span class="tver yes">TVerあり</span></span>
           </div>
-          <h3>「それSnow Manにやらせて下さい」</h3>
-          <p class="note">Snow Manの冠番組。毎週金曜放送のレギュラー番組です。次回は11月20日（金）。</p>
+          <h3>「ハマダ歌謡祭★オオカミ少年 最強冬ソングSP」</h3>
+          <p class="note">宮舘涼太がゲスト出演する、冬ソング特集の音楽特番です。</p>
           <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
         </div>
       </article>
@@ -408,7 +410,172 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
             <span class="wr"><span class="ic" aria-hidden="true">📺</span>テレビ朝日系 <span class="ch">5CH</span> <span class="tver no">TVerなし</span></span>
           </div>
           <h3>「ミュージックステーション」</h3>
-          <p class="note">ラウールがAlan Walker feat. Raulとして出演します。開始時刻のみ公式に記載されています。</p>
+          <p class="note">ラウールがAlan Walker feat. Raulとして出演し、「YUME」を披露します。開始時刻のみ公式に記載されています。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="miyadate sakuma">
+        <div class="datebox"><b>11/21</b><span>土曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 土曜日</span><br>
+          <span class="who red">宮舘涼太</span> <span class="who pink">佐久間大介</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>5:45〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>TBS系 <span class="ch">6CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「夜明けのラヴィット！」</h3>
+          <p class="note">宮舘涼太と佐久間大介が交互に出演します。次回は11月21日（土）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="iwamoto">
+        <div class="datebox"><b>11/21</b><span>土曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 土曜日</span><br>
+          <span class="who yellow">岩本照</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>7:30〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📻</span>NACK5（ラジオ） <span class="ch freq">FM 79.5</span></span>
+          </div>
+          <h3>「西武鉄道 presents 岩本照のロウリュウしてもいいですか？」</h3>
+          <p class="note">岩本照がパーソナリティを務めるラジオ番組です。次回は11月21日（土）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="sakuma">
+        <div class="datebox"><b>11/21</b><span>土曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 土曜日</span><br>
+          <span class="who pink">佐久間大介</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>20:00〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📻</span>文化放送（ラジオ） <span class="ch freq">FM 91.6 / AM 1134</span></span>
+          </div>
+          <h3>「Snow Man 佐久間大介の待って、無理、しんどい、、」</h3>
+          <p class="note">佐久間大介がパーソナリティを務めるラジオ番組です。次回は11月21日（土）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="sakuma">
+        <div class="datebox"><b>11/21</b><span>土曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 土曜日</span><br>
+          <span class="who pink">佐久間大介</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>23:30〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>日本テレビ系 <span class="ch">4CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「サクサクヒムヒム ☆推しの降る夜☆」</h3>
+          <p class="note">佐久間大介が出演するバラエティ番組です。次回は11月21日（土）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="mukai">
+        <div class="datebox"><b>11/22</b><span>日曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 日曜日</span><br>
+          <span class="who orange">向井康二</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>13:00〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📻</span>文化放送（ラジオ） <span class="ch freq">FM 91.6 / AM 1134</span></span>
+          </div>
+          <h3>「Snow Man 向井康二のぼちぼちアフタヌーン」</h3>
+          <p class="note">向井康二がパーソナリティを務めるラジオ番組です。次回は11月22日（日）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="sakuma">
+        <div class="datebox"><b>11/22</b><span>日曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 日曜日</span><br>
+          <span class="who pink">佐久間大介</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>17:30〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>テレビ東京系 <span class="ch">7CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「ダイヤのA actⅡ -Second Season-」</h3>
+          <p class="note">佐久間大介が声の出演をするアニメです。次回は11月22日（日）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="miyadate">
+        <div class="datebox"><b>11/22</b><span>日曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 日曜日</span><br>
+          <span class="who red">宮舘涼太</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>18:00〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📻</span>TBSラジオ <span class="ch freq">FM 90.5 / AM 954</span></span>
+          </div>
+          <h3>「宮舘涼太のロイヤルサロン」</h3>
+          <p class="note">宮舘涼太がパーソナリティを務めるラジオ番組です。次回は11月22日（日）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="miyadate sakuma">
+        <div class="datebox"><b>11/24</b><span>火曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 火曜日</span><br>
+          <span class="who red">宮舘涼太</span> <span class="who pink">佐久間大介</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>8:00〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>TBS系 <span class="ch">6CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「ラヴィット！」</h3>
+          <p class="note">宮舘涼太と佐久間大介が交互に出演します。次回は11月24日（火）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="mukai">
+        <div class="datebox"><b>11/24</b><span>火曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 火曜日</span><br>
+          <span class="who orange">向井康二</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>22:00〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>TBS系 <span class="ch">6CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「いろはの恋は時代をかける」</h3>
+          <p class="note">向井康二が出演するドラマです。次回は11月24日（火）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="fukazawa">
+        <div class="datebox"><b>11/26</b><span>木曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 木曜日</span><br>
+          <span class="who purple">深澤辰哉</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>9:00〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「ノンストップ！」</h3>
+          <p class="note">深澤辰哉が出演する情報番組です。次回は11月26日（木）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="abe">
+        <div class="datebox"><b>11/26</b><span>木曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 木曜日</span><br>
+          <span class="who green">阿部亮平</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>21:00〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「ナゾトレMAXXX」</h3>
+          <p class="note">阿部亮平が出演するクイズ番組です。次回は11月26日（木）。</p>
           <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
         </div>
       </article>
@@ -417,13 +584,58 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
         <div class="datebox"><b>11/26</b><span>木曜日</span></div>
         <div class="body">
           <span class="weekly">毎週 木曜日</span><br>
-          <span class="who all">Snow Man全員</span>
+          <span class="who all">Snow Man（週替わりメンバー）</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>21:00〜21:30</span>
             <span class="wr"><span class="ic" aria-hidden="true">📻</span>文化放送（ラジオ） <span class="ch freq">FM 91.6 / AM 1134</span></span>
           </div>
           <h3>「不二家 presents Snow Manの素のまんま」</h3>
           <p class="note">メンバーが週替わりで出演するラジオ番組です。次回は11月26日（木）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="abe">
+        <div class="datebox"><b>11/27</b><span>金曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 金曜日</span><br>
+          <span class="who green">阿部亮平</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>5:50〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>日本テレビ系 <span class="ch">4CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「ZIP!」</h3>
+          <p class="note">阿部亮平が金曜レギュラーパーソナリティーを務めます。TVerではコーナー単位で配信されます。次回は11月27日（金）。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="group">
+        <div class="datebox"><b>11/27</b><span>金曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 金曜日</span><br>
+          <span class="who all">Snow Man全員</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>20:00〜20:55</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>TBS系 <span class="ch">6CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「それSnow Manにやらせて下さい」</h3>
+          <p class="note">Snow Manの冠番組。毎週金曜放送のレギュラー番組です。ただし11月20日（金）は特番のため放送はありません。次回は11月27日（金）です。</p>
+          <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
+        </div>
+      </article>
+
+      <article class="event" data-kind="iwamoto">
+        <div class="datebox"><b>11/27</b><span>金曜日</span></div>
+        <div class="body">
+          <span class="weekly">毎週 金曜日</span><br>
+          <span class="who yellow">岩本照</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>23:15〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>テレビ朝日系 <span class="ch">5CH</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「真田十勇士 SHADOWS OF THE TEN NINJA」</h3>
+          <p class="note">岩本照が出演するドラマです。次回は11月27日（金）。</p>
           <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
         </div>
       </article>
@@ -437,7 +649,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
             <span class="wr"><span class="ic" aria-hidden="true">📺</span>日本テレビ系 <span class="ch">4CH</span> <span class="tver tbd">TVer未定</span></span>
           </div>
           <h3>「ベストアーティスト2026」</h3>
-          <p class="note">年末の大型音楽番組にSnow Man全員が出演します。</p>
+          <p class="note">年末の大型音楽番組にSnow Man全員が出演します。ラウールとILLIT・ミンジュのスペシャルコラボ企画もあります。</p>
           <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
         </div>
       </article>
@@ -447,11 +659,11 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
         <div class="body">
           <span class="who all">Snow Man全員</span>
           <div class="whenrow">
-            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>18:30〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>18:30〜23:18</span>
             <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span> <span class="tver tbd">TVer未定</span></span>
           </div>
           <h3>「2026 FNS歌謡祭 第1夜」</h3>
-          <p class="note">Snow Man全員が出演します。ラウールの別出演も予定されています。開始時刻のみ公式に記載されています。</p>
+          <p class="note">Snow Man全員が出演します。ラウールはAlan Walker feat. Raulとしても出演します。18:30〜19:00は関東ローカルです。</p>
           <span class="src-link">出典：Snow Man公式サイトの出演情報</span>
         </div>
       </article>
@@ -690,7 +902,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
     <div class="sec-head"><span class="num">6</span><div><h2 id="links-h">他のダッシュボード</h2><p>ほかのグループのダッシュボードはこちら</p></div></div>
     <div class="links">
       <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/"><span class="ic" aria-hidden="true">🎤</span><span>メインページ<small>アイドルダッシュボード</small></span></a>
-      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/milk/"><span class="ic" aria-hidden="true">🥛</span><span>M!LKダッシュボード<small>idol-dashboards/milk</small></span></a>
+      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/milk/"><span class="ic" aria-hidden="true">🐮</span><span>M!LKダッシュボード<small>idol-dashboards/milk</small></span></a>
       <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/naniwa/"><span class="ic" aria-hidden="true">🐙</span><span>なにわ男子ダッシュボード<small>idol-dashboards/naniwa</small></span></a>
       <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/aegroup/"><span class="ic" aria-hidden="true">🎸</span><span>Aぇ! groupダッシュボード<small>idol-dashboards/aegroup</small></span></a>
     </div>
@@ -733,11 +945,37 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
   });
 
   var weekly = {
-    4: [{t:'21:00', title:'素のまんま', kind:'group', c:'all', ch:'ラジオ'}],
-    5: [{t:'20:00', title:'それスノ', kind:'group', c:'all', ch:'6CH'}]
+    0: [
+      {t:'13:00', title:'ぼちぼちアフタヌーン', kind:'mukai', c:'orange', ch:'ラジオ'},
+      {t:'17:30', title:'ダイヤのA', kind:'sakuma', c:'pink', ch:'7CH'},
+      {t:'18:00', title:'ロイヤルサロン', kind:'miyadate', c:'red', ch:'ラジオ'}
+    ],
+    2: [
+      {t:'8:00', title:'ラヴィット！', kind:'miyadate sakuma', c:'red', c2:'pink', ch:'6CH'},
+      {t:'22:00', title:'いろはの恋', kind:'mukai', c:'orange', ch:'6CH'}
+    ],
+    4: [
+      {t:'9:00', title:'ノンストップ！', kind:'fukazawa', c:'purple', ch:'8CH'},
+      {t:'21:00', title:'ナゾトレMAXXX', kind:'abe', c:'green', ch:'8CH'},
+      {t:'21:00', title:'素のまんま', kind:'group', c:'all', ch:'ラジオ'}
+    ],
+    5: [
+      {t:'5:50', title:'ZIP!', kind:'abe', c:'green', ch:'4CH'},
+      {t:'20:00', title:'それスノ', kind:'group', c:'all', ch:'6CH', skip:['11-20']},
+      {t:'23:15', title:'真田十勇士', kind:'iwamoto', c:'yellow', ch:'5CH'}
+    ],
+    6: [
+      {t:'5:45', title:'夜明けのラヴィット！', kind:'miyadate sakuma', c:'red', c2:'pink', ch:'6CH'},
+      {t:'7:30', title:'ロウリュウ', kind:'iwamoto', c:'yellow', ch:'ラジオ'},
+      {t:'20:00', title:'待って、無理、しんどい、、', kind:'sakuma', c:'pink', ch:'ラジオ'},
+      {t:'23:30', title:'サクサクヒムヒム', kind:'sakuma', c:'pink', ch:'4CH'}
+    ]
   };
   var singles = {
-    '11-20': [{t:'21:00', title:'Mステ', kind:'raul', c:'white', ch:'5CH'}],
+    '11-20': [
+      {t:'19:00', title:'ハマダ歌謡祭SP', kind:'miyadate', c:'red', ch:'6CH'},
+      {t:'21:00', title:'Mステ', kind:'raul', c:'white', ch:'5CH'}
+    ],
     '11-28': [{t:'16:00', title:'ベストアーティスト', kind:'group', c:'all', ch:'4CH'}],
     '12-2': [{t:'18:30', title:'FNS歌謡祭', kind:'group', c:'all', ch:'8CH'}]
   };
@@ -769,7 +1007,10 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
       }
       cell.appendChild(dh);
       var evs = [];
-      (weekly[dow] || []).forEach(function(ev){ evs.push(ev); });
+      (weekly[dow] || []).forEach(function(ev){
+        if (ev.skip && ev.skip.indexOf(month + '-' + d) !== -1) return;
+        evs.push(ev);
+      });
       (singles[month + '-' + d] || []).forEach(function(ev){ evs.push(ev); });
       evs.sort(function(a, b){ return tmin(a.t) - tmin(b.t); });
       evs.forEach(function(ev){
@@ -780,7 +1021,12 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
         var tx = document.createElement('span'); tx.textContent = ev.t;
         var nm = document.createElement('span'); nm.className = 'cal-name'; nm.textContent = ev.title;
         var chb = document.createElement('span'); chb.className = 'cal-ch'; chb.textContent = ev.ch;
-        row.appendChild(dot); row.appendChild(tx); row.appendChild(chb); row.appendChild(nm); cell.appendChild(row);
+        row.appendChild(dot);
+        if (ev.c2){
+          var dot2 = document.createElement('i'); dot2.className = 'cdot ' + ev.c2; dot2.setAttribute('aria-hidden','true');
+          row.appendChild(dot2);
+        }
+        row.appendChild(tx); row.appendChild(chb); row.appendChild(nm); cell.appendChild(row);
       });
       grid.appendChild(cell);
     }
