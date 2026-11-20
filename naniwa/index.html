@@ -4,8 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
-<meta name="theme-color" content="#fdfaf2">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>"><meta name="theme-color" content="#fdfaf3">
 <title>なにわ男子 ダッシュボード</title>
 <style>
   html,body{background:#fdfaf2}
@@ -174,6 +173,10 @@ section{margin-top:28px}
 .ch.freq{font-size:15.5px;padding:5px 12px}
 .ch.kansai{background:var(--card);color:var(--ink);border:2.5px solid var(--ink)}
 .station-sub{font-size:13.5px;font-weight:800;color:var(--muted)}
+.tver{display:inline-block;font-size:12.5px;font-weight:900;line-height:1.45;padding:2px 10px;border-radius:999px;white-space:nowrap;vertical-align:middle}
+.tver.yes{background:#0b6e4f;color:#fff;border:1.5px solid #0b6e4f}
+.tver.no{background:#757575;color:#fff;border:1.5px solid #757575}
+.tver.tbd{background:#e8e8e8;color:#4a4a4a;border:1.5px solid #bdbdbd}
 .event p.note{margin:2px 0 0;color:var(--muted);font-weight:700;font-size:15px}
 .src-link{font-size:13.5px;font-weight:700;color:var(--muted);display:inline-block;margin-top:8px;min-height:32px}
 .event[hidden]{display:none}
@@ -269,7 +272,8 @@ section{margin-top:28px}
 .live-row .where{font-weight:800}
 
 .links{display:grid;gap:12px}
-@media(min-width:640px){.links{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:640px){.links{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1020px){.links{grid-template-columns:repeat(4,1fr)}}
 .link-card{display:flex;align-items:center;gap:12px;background:var(--card);border:2px solid var(--line);border-radius:16px;padding:16px;text-decoration:none;color:var(--ink);font-weight:900;font-size:18px;min-height:64px}
 .link-card span.ic{width:44px;height:44px;flex:none;border-radius:12px;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-size:20px}
 .link-card small{display:block;color:var(--muted);font-size:13px;font-weight:700}
@@ -398,7 +402,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
           <span class="who blue">藤原丈一郎</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>5:25〜</span>
-            <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span></span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span> <span class="tver tbd">TVer未定</span></span>
           </div>
           <h3>「めざましテレビ」コーナー「なにわ男子のそれええやん！」</h3>
           <p class="note">藤原丈一郎が出演するコーナーです。本日11月20日（金）も放送があります。開始時刻のみ公式確認済みのため、終了時刻は表示していません。</p>
@@ -413,7 +417,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
           <span class="who all">なにわ男子全員</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>15:30〜16:00</span>
-            <span class="wr"><span class="ic" aria-hidden="true">📺</span>テレビ朝日系 <span class="ch">5CH</span></span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>テレビ朝日系 <span class="ch">5CH</span> <span class="tver yes">TVerあり</span></span>
           </div>
           <h3>「なにわ男子の逆転男子」</h3>
           <p class="note">なにわ男子全員のレギュラー番組です。次回は11月21日（土）。</p>
@@ -457,7 +461,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
           <span class="who all">なにわ男子全員</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>第1部 16:00〜17:00／第2部 19:00〜22:54</span>
-            <span class="wr"><span class="ic" aria-hidden="true">📺</span>日本テレビ系 <span class="ch">4CH</span></span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>日本テレビ系 <span class="ch">4CH</span> <span class="tver tbd">TVer未定</span></span>
           </div>
           <h3>「ベストアーティスト2026」</h3>
           <p class="note">日本テレビ系の音楽特番に、なにわ男子全員が出演します。</p>
@@ -471,7 +475,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
           <span class="who all">なにわ男子全員</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>18:30〜23:18</span>
-            <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span></span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span> <span class="tver tbd">TVer未定</span></span>
           </div>
           <h3>「2026 FNS歌謡祭 第1夜」</h3>
           <p class="note">フジテレビ系の音楽特番に、なにわ男子全員が出演します。</p>
@@ -486,7 +490,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
           <span class="who blue">藤原丈一郎</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>深夜 0:15〜</span>
-            <span class="wr"><span class="ic" aria-hidden="true">📺</span>テレビ朝日系 <span class="ch">5CH</span></span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>テレビ朝日系 <span class="ch">5CH</span> <span class="tver yes">TVerあり</span></span>
           </div>
           <h3>「キョコロヒー」</h3>
           <p class="note">毎月第1または第2火曜の深夜に放送される回に、藤原丈一郎が出演します。具体的な放送日は月ごとに公式サイトでご確認ください。</p>
@@ -701,9 +705,10 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
   <section aria-labelledby="links-h">
     <div class="sec-head"><span class="num">6</span><div><h2 id="links-h">他のダッシュボード</h2><p>他のグループのダッシュボードはこちらです</p></div></div>
     <div class="links">
-      <a class="link-card" href="https://yayo-dog7.github.io/milk-dashboard/"><span class="ic" aria-hidden="true">🥛</span><span>M!LK ダッシュボード<small>milk-dashboard</small></span></a>
-      <a class="link-card" href="https://yayo-dog7.github.io/milk-dashboard/aegroup/"><span class="ic" aria-hidden="true">Aぇ!</span><span>Aぇ! group ダッシュボード<small>milk-dashboard / aegroup</small></span></a>
-      <a class="link-card" href="https://yayo-dog7.github.io/milk-dashboard/snowman/"><span class="ic" aria-hidden="true">⛄</span><span>Snow Man ダッシュボード<small>milk-dashboard / snowman</small></span></a>
+      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/"><span class="ic" aria-hidden="true">🏠</span><span>メインページ<small>アイドルダッシュボード</small></span></a>
+      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/milk/"><span class="ic" aria-hidden="true">🥛</span><span>M!LK ダッシュボード<small>idol-dashboards / milk</small></span></a>
+      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/aegroup/"><span class="ic" aria-hidden="true">Aぇ!</span><span>Aぇ! group ダッシュボード<small>idol-dashboards / aegroup</small></span></a>
+      <a class="link-card" href="https://yayo-dog7.github.io/idol-dashboards/snowman/"><span class="ic" aria-hidden="true">⛄</span><span>Snow Man ダッシュボード<small>idol-dashboards / snowman</small></span></a>
     </div>
   </section>
 
