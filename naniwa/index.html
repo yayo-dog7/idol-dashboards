@@ -395,17 +395,17 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
     <div id="listView">
     <div class="sched" id="schedList">
 
-      <article class="event" data-kind="fujiwara">
+      <article class="event" data-kind="group">
         <div class="datebox"><b>11/20</b><span>金曜日</span></div>
         <div class="body">
           <span class="weekly">毎週 金曜日</span><br>
-          <span class="who blue">藤原丈一郎</span>
+          <span class="who all">なにわ男子全員</span>
           <div class="whenrow">
             <span class="wr"><span class="ic" aria-hidden="true">⏰</span>5:25〜</span>
             <span class="wr"><span class="ic" aria-hidden="true">📺</span>フジテレビ系 <span class="ch">8CH</span> <span class="tver tbd">TVer未定</span></span>
           </div>
           <h3>「めざましテレビ」コーナー「なにわ男子のそれええやん！」</h3>
-          <p class="note">藤原丈一郎が出演するコーナーです。本日11月20日（金）も放送があります。開始時刻のみ公式確認済みのため、終了時刻は表示していません。</p>
+          <p class="note">なにわ男子のメンバーが回ごとに登場するコーナーです。本日11月20日（金）も放送があります。開始時刻のみ公式確認済みのため、終了時刻は表示していません。</p>
           <span class="src-link">出典：なにわ男子公式サイトの出演情報</span>
         </div>
       </article>
@@ -498,6 +498,21 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
         </div>
       </article>
 
+      <article class="event" data-kind="fujiwara">
+        <div class="datebox"><b>毎月</b><span>第1・第2月曜</span></div>
+        <div class="body">
+          <span class="weekly">月1レギュラー</span><br>
+          <span class="who blue">藤原丈一郎</span>
+          <div class="whenrow">
+            <span class="wr"><span class="ic" aria-hidden="true">⏰</span>深夜 0:15〜</span>
+            <span class="wr"><span class="ic" aria-hidden="true">📺</span>関西テレビ <span class="ch kansai">関西</span> <span class="tver yes">TVerあり</span></span>
+          </div>
+          <h3>「藤原丈一郎の月刊！オリックスLOVER」</h3>
+          <p class="note">毎月第1または第2月曜の深夜に放送される、藤原丈一郎のレギュラー番組です。関西ローカルのため、神奈川ではそのまま見ることはできません。具体的な放送日は月ごとに公式サイトでご確認ください。</p>
+          <span class="src-link">出典：なにわ男子公式サイトの出演情報</span>
+        </div>
+      </article>
+
     </div>
     <p id="emptyMsg" hidden style="font-weight:800;color:var(--muted)">この条件の予定はありません。個人の出演は藤原丈一郎のレギュラーが中心で、その他のメンバーは主にグループ出演です。「全部見る」または「なにわ男子全員」を選ぶとグループの予定が表示されます。</p>
     </div>
@@ -508,7 +523,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
         <button type="button" id="nextMonthBtn">次の月 ▶</button>
       </div>
       <div id="calMonths"></div>
-      <p class="cal-note">色の丸印は出演メンバーのカラーです（7色の丸印はなにわ男子全員）。各マスには時間・チャンネル番号（黒いバッジ）・番組名の順で表示しています。毎週レギュラーは当月・翌月とも毎週展開しています。月1レギュラーの「キョコロヒー」は放送日が月ごとに異なるため、カレンダーには入れずリスト表示のみに掲載しています。青い枠の日が今日（11月20日）です。</p>
+      <p class="cal-note">色の丸印は出演メンバーのカラーです（7色の丸印はなにわ男子全員）。各マスには時間・チャンネル番号（黒いバッジ）・番組名の順で表示しています。毎週レギュラーは当月・翌月とも毎週展開しています。月1レギュラーの「キョコロヒー」「藤原丈一郎の月刊！オリックスLOVER」は放送日が月ごとに異なるため、カレンダーには入れずリスト表示のみに掲載しています。青い枠の日が今日（11月20日）です。</p>
     </div>
   </section>
 
@@ -750,7 +765,7 @@ section,.card,.hero,footer{min-width:0;max-width:100%}
 
   var weekly = {
     1: [{t:'18:30', title:'なにわんだふるラジオ', kind:'fujiwara', c:'blue', ch:'関西'}],
-    5: [{t:'5:25', title:'めざまし それええやん！', kind:'fujiwara', c:'blue', ch:'8CH'}],
+    5: [{t:'5:25', title:'めざまし それええやん！', kind:'group', c:'all', ch:'8CH'}],
     6: [{t:'15:30', title:'逆転男子', kind:'group', c:'all', ch:'5CH'}, {t:'22:30', title:'初心ラジ！', kind:'group', c:'all', ch:'ラジオ'}]
   };
   var singles = {
